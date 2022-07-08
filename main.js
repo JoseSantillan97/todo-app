@@ -18,7 +18,7 @@ function addTask() {
 }
 
 function validaInput() {
-  if (input.value == "") { // Aquí hay un bug, tal ves falte una validación más o modificar la que ya hay
+  if (input.value == "") {
     var errorTxt = document.createTextNode("El input no puede estar vacío");
     var errorMsg = document.createElement("p");
     errorMsg.appendChild(errorTxt);
